@@ -23,7 +23,7 @@ a:visited {
     color: #81ecec;
     text-decoration: none;
     -webkit-transition: color 0.2s;
-    transition: color 0.2s;
+    transition: color .2s;
 }
 
 a:hover,

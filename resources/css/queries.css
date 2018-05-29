@@ -18,7 +18,7 @@
     }
 
     .main-nav {
-        font-size: 140%;
+        font-size: 160%;
         left: 93.5%;
         top:25%;
         padding: 10px;
@@ -92,30 +92,39 @@
         font-size: 16px;
     }
     .main-nav {
-        font-size: 150%;
+        font-size: 160%;
         left: 92.5%;
     }
 }
 
 @media only screen and (max-width: 530px) {
-
+    .contact-section {
+        padding-bottom: 100px;
+    }
     .main-nav {
-        left: 90.5%;
-        top:50%;
+        background-color: rgba(3, 20, 36, 0.329);
+        font-size: 200%;
+        left: 50%;
+        top:90%;
+        width: 90%;
+        -webkit-transform: translate(-50%, 0%);
+        transform: translate(-50%, 0%);
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin: 0 15px;
     }
 }
 
 @media only screen and (max-width: 500px) {
     section {
-        padding: 40px 65px 40px 20px;
+        padding: 30px 20px 30px 20px;
     }
 }
 
 
 @media only screen and (max-width: 430px) {
-    section {
-        padding: 40px 50px 40px 20px;
-    }
 
     h1 {
         font-size: 200%;
@@ -136,10 +145,10 @@
         height: 300px;
     }
 
-    .main-nav {
+    /* .main-nav {
         left: 89.5%;
         top:52%;
-    }
+    } */
 
     .project-box {
         padding: 0;
