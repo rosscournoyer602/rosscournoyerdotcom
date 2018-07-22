@@ -54,6 +54,8 @@ a:active {
     color: #30415dd7;
     border-radius: 50px;
     padding: 5px 10px;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color .2s;
 }
 
 .btn:hover,
@@ -247,28 +249,43 @@ header {
 }
 
 .learning-section img {
-    width: 100%;
-    margin: 0 15px 0 0;
+    width: 50%;
+    background-size: cover;
+    margin: 0;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 2px 2px #b9b8b8;
-            box-shadow: 0px 2px 2px #b9b8b8;
+}
+
+.learning-section img:first-of-type {
+    float: left;
+    margin-top: 20px;
+}
+
+.learning-section img:last-of-type {
+    margin-top: -20px;
+    width: 60%;
+    max-height: none;
+    max-width: none;
 }
 
 .learning-section a:link,
 .learning-section a:visited {
     color: #8540d3;
-
+    transition: color .2s;
 }
 
 .learning-section a:hover,
 .learning-section a:active {
     color: #4b1d7f;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .learning-box {
     padding: 0px 10px 20px 10px;
     text-align: center;
+}
+
+.learning-box ul {
+    margin-top: 50px;
 }
 
 .disclaimer {
