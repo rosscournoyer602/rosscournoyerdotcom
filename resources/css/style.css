@@ -288,6 +288,10 @@ header {
     margin-top: 50px;
 }
 
+.learning-description {
+    text-align: center;
+}
+
 .disclaimer {
     text-align: center;
 }
