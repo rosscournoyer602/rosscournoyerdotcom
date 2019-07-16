@@ -288,6 +288,10 @@ header {
     margin-top: 50px;
 }
 
+.learning-box li {
+  margin-top: 55px;
+}
+
 .learning-description {
     text-align: center;
 }
